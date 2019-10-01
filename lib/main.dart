@@ -95,8 +95,8 @@ void main() {
           Row(
             children: <Widget>[
               Container(
-                child: Text('Politics      12hAgo',
-                    style: TextStyle(color: Colors.grey)),
+                child: Text('Local     12hAgo',
+                    style: TextStyle(color: Colors.black54)),
               ),
               Container(
                 child: Row(
@@ -143,7 +143,7 @@ void main() {
           Row(
             children: <Widget>[
               Container(
-                child: Text('Politics      19hAgo',
+                child: Text('international      19hAgo',
                   style: TextStyle(color: Colors.black54)),
               ),
                Container(
