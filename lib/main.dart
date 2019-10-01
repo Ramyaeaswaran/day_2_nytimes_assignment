@@ -24,7 +24,9 @@ void main() {
         children: <Widget>[
           Container(
             child: Text('PM Modi seeks ideas for his IIT-Madras convocation speech',
-            ),
+            style: TextStyle(fontWeight: FontWeight.bold)),
+  ),
+  ],
           ),
           Row(
             children: <Widget>[
@@ -45,17 +47,26 @@ void main() {
                 child: Text('Politics      8hAgo',
                     style: TextStyle(color: Colors.grey)),
               ),
+              Container(
+                child: Row(
+
+                  children: <Widget>[
+                   Icon(Icons.share),
+                    Icon(Icons.bookmark_border),
+                  ],
+                ),
+              ),
             ],
           ),
-          Container(
-            color: Colors.grey,
-            height: 1,
-            width: 320,
-          ),
-        ],
+      Container(
+        color: Colors.grey,
+        height: 1,
+        width: 320,
       ),
     ],
   );
+
+
   Column r2 = Column(
     mainAxisAlignment: MainAxisAlignment.spaceEvenly,
     children: <Widget>[
@@ -64,7 +75,9 @@ void main() {
           Container(
             alignment: Alignment.topLeft,
             child: Text('Flooded Roads, Stranded Locals and Warning of More Rains',
+         style: TextStyle(fontWeight: FontWeight.bold)),
             ),
+           ],
           ),
           Row(
             children: <Widget>[
@@ -85,16 +98,22 @@ void main() {
                 child: Text('Politics      12hAgo',
                     style: TextStyle(color: Colors.grey)),
               ),
-            ],
-          ),
-          Container(
-            color: Colors.grey,
-            height: 1,
-            width: 320,
-          ),
-        ],
-      ),
-    ],
+              Container(
+                child: Row(
+                children: <Widget>[
+                  Icon(Icons.share),
+                  Icon(Icons.bookmark_border)
+             ],
+             ),
+             ),
+             ],
+             ),
+             Container(
+  color: Colors.grey,
+  height: 1,
+  width: 320,
+  ),
+  ],
   );
 
   Column r3 = Column(
@@ -104,7 +123,9 @@ void main() {
         children: <Widget>[
           Container(
             child: Text('Saudi crown prince denies ordering Jamal Khashoggi killing',
+         style: TextStyle(fontWeight: FontWeight.bold)),
             ),
+         ],
           ),
           Row(
             children: <Widget>[
@@ -125,16 +146,22 @@ void main() {
                 child: Text('Politics      19hAgo',
                   style: TextStyle(color: Colors.black54)),
               ),
-            ],
-          ),
-          Container(
-            color: Colors.grey,
-            height: 1,
-            width: 320,
-          ),
-        ],
-      ),
+               Container(
+                 child: Row(
+  children: <Widget>[
+                     Icon(Icons.share),
+                     Icon(Icons.bookmark_border)
     ],
+   ),
+   ),
+  ],
+  ),
+  Container(
+  color: Colors.grey,
+  height: 1,
+  width: 320,
+  ),
+  ],
   );
 
   List<Widget> values = [r1,r2,r3];
